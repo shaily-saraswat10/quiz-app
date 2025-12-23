@@ -14,7 +14,7 @@ const Badge = ({ percent }) => {
   return <span className={resultStyles.badgeNeedsWork}>Needs work</span>
 };
 
-const MyResult = ({API_BASE = 'http://localhost:4000'}) => {
+const MyResult = ({API_BASE = 'https://quizapp-prvj.onrender.com'}) => {
 
  const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(true);
