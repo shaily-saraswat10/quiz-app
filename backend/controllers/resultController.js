@@ -36,7 +36,7 @@ export async function createResult(req, res) {
       user: req.user.id,
       title: title.trim(),
       technology: technology.toLowerCase(), 
-      level: level.toLowerCase(),
+      level,
       totalQuestions: Number(totalQuestions),
       correct: Number(correct),
       wrong:

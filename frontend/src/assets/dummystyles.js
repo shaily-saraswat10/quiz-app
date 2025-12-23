@@ -402,8 +402,8 @@ export const resultStyles = {
   filterButtons: "flex flex-wrap items-center gap-2",
   filterLabel: "text-sm text-gray-600 mr-2",
   filterButton: "px-3 py-1 rounded-full text-sm font-medium border shadow-sm focus:outline-none",
-  filterButtonActive: "bg-indigo-600 text-white",
-  filterButtonInactive: "bg-white text-gray-700",
+  filterButtonActive: "bg-indigo-600 text-white  rounded-full px-2 py-1 ",
+  filterButtonInactive: "bg-white text-gray-900  rounded px-2 py-1 ",
   filterStatus: "text-sm text-gray-500",
   
   // Loading state
