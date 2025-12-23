@@ -9,7 +9,10 @@ const app = express();
 const port = 4000;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: "https://quiz-app-yome.vercel.app/",
+  credentials: true
+}));
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
