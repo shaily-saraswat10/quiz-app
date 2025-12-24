@@ -15,7 +15,7 @@ const Login = ({onLoginSuccess = null}) => {
   const [loading, setLoading] = useState(false);
   const [submitError, setSubmitError] = useState("");
 
-  const API_BASE = 'https://quizapp-prvj.onrender.com';
+  const API_BASE = 'https://quiz-app-fsci.onrender.com';
 
   const handleSubmit = async (ev) =>{
       ev.preventDefault();

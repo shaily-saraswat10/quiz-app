@@ -28,7 +28,7 @@ const Signup = ({ onSignupSuccess = null }) => {
     return e;
   };
     
-  const API_BASE = 'https://quizapp-prvj.onrender.com';
+  const API_BASE = 'https://quiz-app-fsci.onrender.com';
    
   const handleSubmit = async (ev) =>{
       ev.preventDefault();
