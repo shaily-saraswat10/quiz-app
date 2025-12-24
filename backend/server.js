@@ -12,7 +12,7 @@ const port = 4000;
 
 // Middleware
 app.use(cors({
-  origin: "https://quiz-app-2sxq.vercel.app/",
+  origin: "https://quiz-app-five-sable-67.vercel.app/",
   credentials: true
 }));
 app.use(express.json());
