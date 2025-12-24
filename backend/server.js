@@ -1,10 +1,9 @@
 import express from 'express'
 import cors from 'cors'
-import 'dotenv/config'
 import { connectDB } from './config/db.js';
 import userRouter from './routes/userRoutes.js';
 import resultRouter from './routes/resultRoutes.js';
-import dotenv from "dotenv";
+import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
@@ -12,7 +11,7 @@ const port = 4000;
 
 // Middleware
 app.use(cors({
-  origin: "https://quiz-app-five-sable-67.vercel.app/",
+  origin: "https://quiz-app-five-sable-67.vercel.app",
   credentials: true
 }));
 app.use(express.json());
