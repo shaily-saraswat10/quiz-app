@@ -3,6 +3,7 @@ import User from "../models/userModels.js";
 import validator from "validator";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
+import dotenv from 'dotenv';
 
 const TOKEN_EXPIRES_IN = "24h";
 const JWT_SECRET = process.env.JWT_SECRET;

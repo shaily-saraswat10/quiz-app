@@ -4,6 +4,8 @@ import 'dotenv/config'
 import { connectDB } from './config/db.js';
 import userRouter from './routes/userRoutes.js';
 import resultRouter from './routes/resultRoutes.js';
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
 const port = 4000;
